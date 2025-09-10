@@ -16,18 +16,7 @@ module.exports = (env, argv) => {
                     use: {
                         loader: 'ts-loader',
                         options: {
-                            configFile: path.resolve(__dirname, 'tsconfig.json'),
-                            compilerOptions: {
-                                target: 'ES5',
-                                module: 'CommonJS',
-                                experimentalDecorators: true,
-                                emitDecoratorMetadata: true,
-                                strict: false,
-                                useDefineForClassFields: false,
-                                moduleResolution: 'node',
-                                esModuleInterop: true,
-                                allowSyntheticDefaultImports: true
-                            }
+                            configFile: path.resolve(__dirname, 'tsconfig.app.json')
                         }
                     },
                     exclude: /node_modules/,
@@ -64,7 +53,6 @@ module.exports = (env, argv) => {
                 name: 'WidgetClass',
                 type: 'var'
             },
-            globalObject: 'this',
             clean: true
         },
 
@@ -93,6 +81,16 @@ module.exports = (env, argv) => {
             new XconThingsBoardWebpackPlugin(
                 {
                     debug: true,
+                    defaultConfig: {
+                        backgroundColor: '#ffffff',
+                        textColor: '#000000',
+                        showLegend: true,
+                        showTitle: true
+                    },
+                    latestDataKeys: [
+                        { name: 'temperature', label: 'Temperature', type: 'attribute' },
+                        { name: 'humidity', label: 'Humidity', type: 'attribute' }
+                    ],
                     dataKeys: [
                         {
                             name: 'latitude',

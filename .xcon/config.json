@@ -1,7 +1,6 @@
 {
   "configurations": {
-    "provider": "thingsboard",
-    "id": "ff564300-8c24-11f0-bd24-51703d2c4d89"
+    "provider": "thingsboard"
   },
   "projectType": "widget",
   "version": "1.0"
