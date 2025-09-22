@@ -2,6 +2,75 @@
   "configurations": {
     "provider": "thingsboard"
   },
+  "build": {
+    "debug": true,
+    "entry": "widget.ts",
+    "sourceRoot": "src",
+    "outputFilename": "widget.js",
+    "outputPath": "dist",
+    "tsConfig": "tsconfig.app.json",
+    "externals": {
+      "@xcons/common": "XConsCommon",
+      "@xcons/core": "XConsCore",
+      "@xcons/widget": "XConWidgetCore"
+    }
+  },
+  "data": {
+    "defaultConfig": {
+      "backgroundColor": "#ffffff",
+      "textColor": "#000000",
+      "showLegend": true,
+      "showTitle": true,
+      "width": 7.5,
+      "height": 5
+    },
+    "latestDataKeys": [
+      {
+        "name": "temperature",
+        "label": "Temperature",
+        "type": "attribute"
+      },
+      {
+        "name": "humidity",
+        "label": "Humidity",
+        "type": "attribute"
+      }
+    ],
+    "dataKeys": [
+      {
+        "name": "latitude",
+        "label": "Latitude",
+        "type": "timeseries",
+        "settings": {
+          "dataKeyType": "latitude"
+        }
+      },
+      {
+        "name": "longitude",
+        "label": "Longitude",
+        "type": "timeseries",
+        "settings": {
+          "dataKeyType": "longitude"
+        }
+      },
+      {
+        "name": "speed",
+        "label": "Speed",
+        "type": "timeseries",
+        "settings": {
+          "dataKeyType": "speed"
+        }
+      },
+      {
+        "name": "angle",
+        "label": "Angle",
+        "type": "timeseries",
+        "settings": {
+          "dataKeyType": "angle"
+        }
+      }
+    ]
+  },
   "projectType": "widget",
   "version": "1.0"
 }
