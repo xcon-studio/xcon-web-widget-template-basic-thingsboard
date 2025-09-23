@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3812072-2009-4090-9456-8618522418cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/widget-model-attr.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/widget-model-class.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/widget-model-computed.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/widget-model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.xcon/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.xcon/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widget.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widget.tbhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget.xchtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widget.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +147,7 @@
       <workItem from="1757525625895" duration="1287000" />
       <workItem from="1757825610378" duration="245000" />
       <workItem from="1757827583408" duration="706000" />
-      <workItem from="1758501200948" duration="362000" />
+      <workItem from="1758501200948" duration="943000" />
     </task>
     <servers />
   </component>

@@ -10,18 +10,12 @@
   "devDependencies": {
     "@types/jquery": "^3.5.0",
     "@types/node": "^20.0.0",
-    "@xcons/common": "^2.0.9",
+    "@xcons/common": "^2.0.11",
     "@xcons/core": "^2.0.1",
-    "@xcons/vite-plugin": "^1.1.93",
-    "@xcons/widget": "^1.3.5",
-    "reflect-metadata": "^0.2.2",
-    "terser": "^5.44.0",
-    "terser-webpack-plugin": "^5.3.14",
-    "ts-loader": "^9.5.1",
+    "@xcons/vite-plugin": "^1.1.94",
+    "@xcons/widget": "^1.3.7",
     "typescript": "~5.5.2",
-    "vite": "^7.1.5",
-    "webpack": "^5.101.3",
-    "webpack-cli": "^6.0.1"
+    "vite": "^7.1.5"
   },
   "keywords": [
     "xcon",
