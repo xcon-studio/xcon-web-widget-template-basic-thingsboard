@@ -1,33 +1,42 @@
 // XCON Widget Template
-import {computed, OnWidgetPropertyChanged, OnWidgetResize, property, Widget, WidgetContext} from "@xcons/widget";
+import {
+    computed,
+    OnWidgetPropertyChanged,
+    OnWidgetResize,
+    property,
+    Widget,
+    WidgetContext,
+    service, DI
+} from "@xcons/widget";
 import {ComponentLogLevel, LoggerLogLevel} from "@xcons/common";
 import {WidgetTestModel} from "./widget-model";
 import {WidgetTestComputedModel} from "./widget-model-computed";
 import {WidgetTestAttrModel} from "./widget-model-attr";
 import {WidgetTestClassModel} from "./widget-model-class";
+import {WidgetTestService} from "./widget-service";
 
 
 @Widget({
     widgetName: 'XCON Widget',
-    widgetDescription: 'A TypeScript widget for XCON platform',
+    widgetDescription: 'A TypeScript widget for XCON Thingsboard platform',
     widgetVersion: '1.0.0',
     selector: 'xcon-test-widget',
     templateUrl: './widget.html',
     styleUrls: ['./widget.css'],
     initMode: "auto",
     encapsulation: 'component',
-    resources:[
+    resources: [
         {
             name: 'bootstrap-css',
             type: "css",
             url: "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css",
-            extension:true
+            extension: true
         },
         {
             name: 'fontawesome',
             type: "css",
             url: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
-            extension:true
+            extension: true
         }
     ],
     logger: {
@@ -42,14 +51,16 @@ import {WidgetTestClassModel} from "./widget-model-class";
 export default class TestXconWidget implements OnWidgetResize, OnWidgetPropertyChanged {
 
     onWidgetResize(): void {
-        console.log('SimpleBindingExample widget onWidgetResize');
+        console.log('Thingsboard Widget onWidgetResize');
     }
 
     onWidgetInit() {
-        console.log('SimpleBindingExample widget initialized', this);
+        console.log('Thingsboard Widget initialized', this);
     }
 
     xctx?: WidgetContext;
+
+    @service(WidgetTestService) serviceModel!: WidgetTestService;
 
     @property() model = new WidgetTestModel();
     @property() modelComputed = new WidgetTestComputedModel();
@@ -73,16 +84,22 @@ export default class TestXconWidget implements OnWidgetResize, OnWidgetPropertyC
 
     constructor(ctx: WidgetContext) {
         this.xctx = ctx;
-        console.log('ThingsBoard Widget initialized', this.xctx);
+        console.log('Thingsboard Widget initialized', this.xctx);
     }
 
     onWidgetPropertyChanged(propertyKey?: string, oldValue?: any, newValue?: any): void {
-        console.log('SimpleBindingExample widget onWidgetPropertyChanged', propertyKey, oldValue, newValue);
+        console.log('Thingsboard Widget onWidgetPropertyChanged', propertyKey, oldValue, newValue);
     }
 
     // Text binding - Update date
     updateDate() {
         this.currentDate = new Date().toLocaleString();
+    }
+
+    serviceTest() {
+        console.log('Registered services:', DI.registry.getRegisteredServices());
+        this.serviceModel.updateDate()
+        // console.log('serviceTest', this.serviceModel);
     }
 
     @computed()
