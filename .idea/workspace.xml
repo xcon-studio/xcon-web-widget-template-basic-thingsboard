@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3812072-2009-4090-9456-8618522418cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/widget-service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widget-model-attr.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget-model-attr.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widget-model-class.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget-model-class.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widget-model-computed.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget-model-computed.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widget-model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget-model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widget.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/widget.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +150,7 @@
       <workItem from="1758501200948" duration="943000" />
       <workItem from="1758636528944" duration="571000" />
       <workItem from="1758774956526" duration="479000" />
+      <workItem from="1758775534003" duration="171000" />
     </task>
     <servers />
   </component>
