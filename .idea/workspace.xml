@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3812072-2009-4090-9456-8618522418cd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/xcon-web-cli.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/xcon-web-widget-template-basic-thingsboard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/widget_without_template/models/widget-model-text.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/widget_without_template/models/widget-service-text.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/widget_without_template/widget.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/widget_without_template/widget.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app_widget_without_template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.bootstrap.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.bootstrap.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_for/widget.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/widget_binding_for/widget.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +92,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/xcon/xcon-web-widget-template-basic-thingsboard/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/xcon/xcon-web-widget-template-basic-thingsboard/src/app&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -96,6 +105,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\xcon\xcon-web-widget-template-basic-thingsboard\src\app" />
       <recent name="D:\Projects\xcon\xcon-web-widget-template-basic-thingsboard\src" />
       <recent name="C:\temp\test" />
     </key>
@@ -177,6 +187,14 @@
       <workItem from="1758850005762" duration="34000" />
       <workItem from="1759621821220" duration="980000" />
       <workItem from="1759622924639" duration="170000" />
+      <workItem from="1759666199650" duration="7000" />
+      <workItem from="1759668051449" duration="39000" />
+      <workItem from="1759670100107" duration="54000" />
+      <workItem from="1759670314301" duration="131000" />
+      <workItem from="1759673246213" duration="150000" />
+      <workItem from="1759674558437" duration="78000" />
+      <workItem from="1759713989225" duration="48000" />
+      <workItem from="1759757466861" duration="3000" />
     </task>
     <servers />
   </component>
