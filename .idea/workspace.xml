@@ -5,16 +5,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3812072-2009-4090-9456-8618522418cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/widget_without_template/models/widget-model-text.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/widget_without_template/models/widget-service-text.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/widget_without_template/widget.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/widget_without_template/widget.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app_widget_without_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.bootstrap.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.bootstrap.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_for/widget.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/widget_binding_for/widget.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_attr/models/widget-model-attr.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_attr/models/widget-service-attr.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_attr/widget.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_attr/widget.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_attr/widget.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_class/models/widget-model-class.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_class/models/widget-service-class.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_class/widget.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_class/widget.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_class/widget.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_click/models/widget-model-click.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_click/models/widget-service-click.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_click/widget.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_click/widget.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_click/widget.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_compute/models/widget-model-compute.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_compute/models/widget-service-compute.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_compute/widget.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_compute/widget.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_compute/widget.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_for/widget.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_for/widget.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_for/widget.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_if/models/widget-model-if.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_if/models/widget-service-if.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_if/widget.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_if/widget.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_if/widget.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_model/models/widget-model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_model/models/widget-service-model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_model/widget.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_model/widget.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_model/widget.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_switch/widget.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_switch/widget.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_switch/widget.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_text/models/widget-model-text.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_text/models/widget-service-text.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_text/widget.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_text/widget.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_binding_text/widget.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_without_template/models/widget-model-text.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_without_template/models/widget-service-text.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_without_template/widget.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/widget_without_template/widget.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app_widget_without_template.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +135,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/xcon/xcon-web-widget-template-basic-thingsboard/src/app&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/xcon/xcon-web-widget-template-basic-thingsboard/src&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -105,8 +148,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\xcon\xcon-web-widget-template-basic-thingsboard\src\app" />
       <recent name="D:\Projects\xcon\xcon-web-widget-template-basic-thingsboard\src" />
+      <recent name="D:\Projects\xcon\xcon-web-widget-template-basic-thingsboard\src\app" />
       <recent name="C:\temp\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -194,7 +237,9 @@
       <workItem from="1759673246213" duration="150000" />
       <workItem from="1759674558437" duration="78000" />
       <workItem from="1759713989225" duration="48000" />
-      <workItem from="1759757466861" duration="3000" />
+      <workItem from="1759757466861" duration="109000" />
+      <workItem from="1759836128630" duration="147000" />
+      <workItem from="1759836384773" duration="1073000" />
     </task>
     <servers />
   </component>
